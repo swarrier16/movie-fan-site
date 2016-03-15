@@ -4,4 +4,15 @@
 
 h2, .brand-logo {
     font-family: 'Patrick Hand SC', cursive;
+    color: white;
 	}
+
+.slider {
+	width: 75%;
+}
+
+body {
+	background-color: #212121;
+}
+
+
