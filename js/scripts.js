@@ -10,3 +10,4 @@
     $('.scrollspy').scrollSpy();
   });
        
+  $(".button-collapse").sideNav();
