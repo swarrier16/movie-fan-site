@@ -5,29 +5,21 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body>
 
 
-
-  <!--nav class="black">
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo"><img src="img/starwars.png"></a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="black waves-effect waves-light btn right hide-on-down">
-        <li><a href="#prequels">Prequels</a></li>
-        <li><a href="#original">Original</a></li>
-        <li><a href="#force-awakens">The Force Awakens</a></li>
-      </ul-->
    <nav class="black">
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo"><img src="img/starwars.png"></a>
+      <a href="#" class="brand-logo animated fadeInUp wow" data-wow-delay =".1s"><img class="respnsive-img" src="img/starwars.png"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="grey darken-4 waves-effect waves-light btn right hide-on-down responsive-btn">
-        <li><a href="#prequels">Prequels</a></li>
-        <li><a href="#original">Original</a></li>
-        <li><a href="#force-awakens">The Force Awakens</a></li>
+        <li><a href="#prequels" class="animated fadeInUp wow" data-wow-delay =".4s"> Prequels</a></li>
+        <li><a href="#original" class="animated fadeInUp wow" data-wow-delay =".7s">Original</a></li>
+        <li><a href="#force-awakens" class="animated fadeInUp wow"data-wow-delay ="1s">The Force Awakens</a></li>
       </ul>
     <!--/div-->
       <ul class="side-nav" id="mobile-demo">
@@ -215,6 +207,7 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+	<script src="js/wow.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>

@@ -11,3 +11,7 @@
   });
        
   $(".button-collapse").sideNav();
+
+  $('#yourElement').addClass('animated bounceOutLeft');
+
+  new WOW().init();
