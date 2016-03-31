@@ -5,29 +5,21 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 </head>
 <body>
 
 
-
-  <!--nav class="black">
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo"><img src="img/starwars.png"></a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="black waves-effect waves-light btn right hide-on-down">
-        <li><a href="#prequels">Prequels</a></li>
-        <li><a href="#original">Original</a></li>
-        <li><a href="#force-awakens">The Force Awakens</a></li>
-      </ul-->
    <nav class="black">
     <div class="nav-wrapper container">
-      <a href="#" class="brand-logo"><img src="img/starwars.png"></a>
+      <a href="#" class="brand-logo animated fadeInDown wow" data-wow-delay =".1s"><img class="respnsive-img" src="img/starwars.png"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="grey darken-4 waves-effect waves-light btn right hide-on-down responsive-btn">
-        <li><a href="#prequels">Prequels</a></li>
-        <li><a href="#original">Original</a></li>
-        <li><a href="#force-awakens">The Force Awakens</a></li>
+        <li><a href="#prequels" class="animated fadeInDown wow" data-wow-delay =".4s"> Prequels</a></li>
+        <li><a href="#original" class="animated fadeInDown wow" data-wow-delay =".7s">Original</a></li>
+        <li><a href="#force-awakens" class="animated fadeInDown wow"data-wow-delay ="1s">The Force Awakens</a></li>
       </ul>
     <!--/div-->
       <ul class="side-nav" id="mobile-demo">
@@ -38,7 +30,7 @@
     </div>
   </nav>
 
-  <div class="grey darken-4">
+  <div class="grey darken-4 animated fadeInUp wow" data-wow-delay =".1s">
   <br></br>
   <div class="slider container">
     <ul class="slides">
@@ -66,9 +58,9 @@
     <div class="row container">
     <div id="prequels" class="section scrollspy">
     <br>
-      <img src="img/prequel.png">
+      <img class="animated fadeInLeft wow" data-wow-delay=".7s"src="img/prequel.png">
 
-      <div class="row">
+      <div class="row animated fadeInRight wow" data-wow-delay=".1s">
         <div class="col s12 m4">
         	<div class="card">
 				<div class="card-image waves-effect waves-block waves-light">
@@ -132,12 +124,12 @@
    <div class="grey darken-4">
     <div class="row container">
     <div id="original" class="section scrollspy"><br>
-     <img src="img/originalt.png">
-      <div class="row">
+     <img class="animated fadeInLeft wow" data-wow-delay=".3s" src="img/originalt.png">
+      <div class="row animated fadeInRight wow" data-wow-delay=".1s">
         <div class="col s12 m4">
         	<div class="card">
 				<div class="card-image waves-effect waves-block waves-light">
-			      <img class="activator" src="http://mestresjedi.com.br/wp-content/uploads/2016/01/a-new-hope.jpg" height="230">
+			      <img class="activator" src="http://cdn2.denofgeek.us/sites/denofgeekus/files/starwars-iv.jpg" height="230">
 			    </div>
 			    <div class="card-content">
 			      <span class="card-title activator grey-text text-darken-4">A New Hope<i class="material-icons right">more_vert</i></span>
@@ -195,8 +187,8 @@
   <div class="grey darken-4">
     <div class="row container">
     <div id="force-awakens" class="section scrollspy"><br>
-       <img src="img/tfa.png">
-      	<div class="row">
+       <img class="animated fadeInLeft wow" data-wow-delay=".3s" src="img/tfa.png">
+      	<div class="row animated fadeInRight wow" data-wow-delay=".1s">
       		<center>
         	<div class="col s12 m9 offset-m2">
 	      		<div class="card">
@@ -213,8 +205,11 @@
 			    </div>
 			</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-	<script src="js/scripts.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <!-- wow library activates animations on scroll -->
+  <script type="text/javascript" src="js/wow.js"></script>
+  <!-- custom scripts -->
+  <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
